@@ -16,7 +16,7 @@ resource "aws_instance" "ec2_instance" {
 
     ami = "ami-02396cdd13e9a1257"
 
-    count = "1"
+    count = "2"
 
     subnet_id = aws_subnet.example1.id
 
